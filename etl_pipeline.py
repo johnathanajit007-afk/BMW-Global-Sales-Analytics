@@ -4,7 +4,7 @@ import pandas as pd
 import io
 
 # 1. Azure Storage Connection Details
-CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=corpbmwdatastorage2026;AccountKey=zpd/KgMZkMVj80pgwDwZ1qpCIalnfFvCL30lENRDRiDjgW2niK9To1SqqXSV6MTo5Gi5o8p7tCp6+AStUmK9sA==;EndpointSuffix=core.windows.net"
+CONNECTION_STRING = os.getenv("AZURE_STORAGE_CONNECTION_STRING", "YOUR_AZURE_STORAGE_CONNECTION_STRING_HERE")
 CONTAINER_NAME = "raw-data"
 BLOB_NAME = "BMW sales data (2010-2024).csv" # Updated to match your exact file name
 
