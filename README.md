@@ -1,6 +1,5 @@
-# 🚗 BMW Global Sales & Profitability Analytics Dashboard
-
-An executive-level Business Intelligence & Data Analytics solution built using Python, DAX, and Power BI to analyze multi-year global sales performance, profit margins, regional market share, and fuel type shifts (2010–2024).
+## 🚗 BMW Global Sales & Profitability Analytics Dashboard
+An executive-level Business Intelligence & Data Analytics solution built using Azure Blob Storage, Python, DAX, and Power BI to ingest, process, and analyze multi-year global sales performance, profit margins, regional market share, and fuel type shifts (2010–2024).
 
 ---
 
@@ -22,11 +21,11 @@ An executive-level Business Intelligence & Data Analytics solution built using P
 
 ---
 
-## ⚙️ Tech Stack & Methodology
-- **Data Ingestion & Cleaning:** `etl_pipeline.py` processes raw sales data (`BMW sales data (2010-2024).csv`), performing null handling, data type conversions, and schema standardization to produce `cleaned_bmw_sales_data.csv`.
-- **Data Modeling & DAX:** Star schema modeling in Power BI with optimized DAX calculations for aggregations and profit metrics.
-- **Data Visualization:** Executive dashboard layout featuring custom KPI callouts ($3T Revenue, 43M Units, $478.21B Profit), yearly trend lines, regional slicers, and fuel-type breakdowns.
-
+⚙️ Tech Stack & Methodology
+* Cloud Data Ingestion: Azure Blob Storage hosted raw dataset (BMW sales data (2010-2024).csv), securely accessed via Python.
+* ETL Pipeline: etl_pipeline.py fetches raw data from the Azure cloud container, handling nulls, type conversions, and schema standardization to produce cleaned_bmw_sales_data.csv.
+* Data Modeling & DAX: Star schema modeling in Power BI with optimized DAX calculations for aggregations and profit metrics.
+* Data Visualization: Executive dashboard layout featuring custom KPI callouts ($3T Revenue, 43M Units, $478.21B Profit), yearly trend lines, regional slicers, and fuel-type breakdowns.
 ---
 
 ## 📈 Key DAX Measures
