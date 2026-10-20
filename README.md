@@ -6,7 +6,11 @@ An executive-level Business Intelligence & Data Analytics solution built using P
 
 ## 📊 Executive Dashboard Preview
 
-![BMW Sales Analytics Dashboard](dashboard/BMW_Global_Analytics_Executive_Dashboard.png)
+![BMW Sales Analytics Dashboard](BMW_Global_Analytics_Executive_Dashboard.png)
+
+## 📊 Executive Dashboard Live Demo
+
+![BMW Sales Analytics Demo](BMW_Global_Analytics_Executive_Dashboard.gif)
 
 ---
 
